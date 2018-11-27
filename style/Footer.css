@@ -1,0 +1,75 @@
+.Footer {
+  width: 1000px;
+  margin: 30px auto 0 auto; }
+  .Footer .linksubscribewrapper {
+    display: flex;
+    background: #9b9c9c;
+    color: white; }
+    .Footer .linksubscribewrapper > .insidewrapper {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1; }
+      .Footer .linksubscribewrapper > .insidewrapper .Backtotop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        background: #8b8d8d;
+        cursor: pointer; }
+        .Footer .linksubscribewrapper > .insidewrapper .Backtotop:hover {
+          background: #818383; }
+      .Footer .linksubscribewrapper > .insidewrapper .FooterLinks {
+        flex-grow: 1;
+        padding: 16px;
+        display: flex; }
+        .Footer .linksubscribewrapper > .insidewrapper .FooterLinks .section {
+          flex-grow: 1; }
+        .Footer .linksubscribewrapper > .insidewrapper .FooterLinks h2 {
+          color: white;
+          margin-top: 0;
+          margin-bottom: 15px;
+          font-size: 14px;
+          font-weight: bold; }
+        .Footer .linksubscribewrapper > .insidewrapper .FooterLinks ul {
+          margin: 0;
+          padding: 0;
+          list-style: none; }
+          .Footer .linksubscribewrapper > .insidewrapper .FooterLinks ul li {
+            margin-bottom: 5px; }
+            .Footer .linksubscribewrapper > .insidewrapper .FooterLinks ul li a {
+              color: white;
+              font-size: 11px; }
+    .Footer .linksubscribewrapper .Subscribe {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0; }
+      .Footer .linksubscribewrapper .Subscribe > *:first-child {
+        margin-bottom: 4px; }
+      .Footer .linksubscribewrapper .Subscribe input {
+        background: white;
+        border: 0;
+        border: 1px solid #e0e1e2;
+        padding: 4px;
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px; }
+      .Footer .linksubscribewrapper .Subscribe button {
+        background: white;
+        color: white;
+        cursor: pointer;
+        border: 1px solid #1979c3;
+        padding: 4px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        background: #1979c3; }
+        .Footer .linksubscribewrapper .Subscribe button:hover {
+          background: #006bb4; }
+  .Footer .Copyright {
+    background: #8b8d8d;
+    height: 40px;
+    color: white;
+    padding: 0 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center; }

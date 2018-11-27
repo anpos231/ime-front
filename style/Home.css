@@ -1,0 +1,25 @@
+.Home .products {
+  width: 1000px;
+  margin: 0 auto; }
+  .Home .products .productsline {
+    display: flex;
+    justify-content: space-around; }
+
+.Product {
+  display: flex;
+  flex-direction: column;
+  width: 165px;
+  height: 220px;
+  cursor: pointer;
+  font-size: 12px; }
+  .Product .name {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: black; }
+  .Product .prices {
+    display: flex;
+    justify-content: space-around; }
+    .Product .prices .old {
+      color: indianred;
+      text-decoration: line-through; }

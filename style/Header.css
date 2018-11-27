@@ -1,0 +1,82 @@
+.Header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex; }
+  .Header .logo {
+    height: 128px; }
+    .Header .logo img {
+      width: 200px; }
+  .Header .wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; }
+    .Header .wrapper > div {
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 20px 0;
+      text-transform: uppercase; }
+      .Header .wrapper > div > div {
+        padding: 0 21px; }
+        .Header .wrapper > div > div:not(.link) {
+          cursor: default; }
+        .Header .wrapper > div > div:not(:last-child) {
+          border-right: 1px solid #cbcccd; }
+    .Header .wrapper > nav {
+      background: black;
+      height: 35px;
+      color: white;
+      padding: 0 20px;
+      display: flex;
+      align-items: stretch;
+      justify-content: center; }
+      .Header .wrapper > nav .NavLink {
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none; }
+        .Header .wrapper > nav .NavLink:hover {
+          color: #939598; }
+        .Header .wrapper > nav .NavLink:hover > div.NavMenu {
+          display: block; }
+      .Header .wrapper > nav .NavMenu {
+        box-sizing: border-box;
+        width: 1000px;
+        padding: 12px;
+        position: absolute;
+        background: black;
+        left: calc(50% - 500px);
+        top: 128px;
+        color: white;
+        display: none;
+        cursor: default;
+        z-index: 999; }
+        .Header .wrapper > nav .NavMenu * {
+          color: white; }
+        .Header .wrapper > nav .NavMenu .nav {
+          display: flex; }
+        .Header .wrapper > nav .NavMenu .section {
+          width: 250px;
+          flex-shrink: 0; }
+        .Header .wrapper > nav .NavMenu .section:not(:first-child) {
+          margin-left: 15px; }
+        .Header .wrapper > nav .NavMenu .section h4 {
+          border-bottom: 1px solid white;
+          padding-bottom: 5px;
+          margin: 0 0 15px 0; }
+        .Header .wrapper > nav .NavMenu .section a:not(:last-child) {
+          margin: 0 0 15px 0; }
+        .Header .wrapper > nav .NavMenu .section a {
+          font-size: 14px;
+          display: block;
+          cursor: pointer; }
+        .Header .wrapper > nav .NavMenu .catimage {
+          margin-left: 15px;
+          flex-grow: 1; }
+        .Header .wrapper > nav .NavMenu .catimage > img {
+          width: 100%; }
+        .Header .wrapper > nav .NavMenu:hover {
+          display: block; }

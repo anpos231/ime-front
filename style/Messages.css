@@ -1,0 +1,24 @@
+.Messages {
+  margin-top: 16px; }
+  .Messages:not(:empty) {
+    margin-bottom: 16px; }
+  .Messages .msgwrapper {
+    margin: 0 auto;
+    width: 1000px;
+    height: 30px;
+    background: lightgreen;
+    display: flex;
+    padding: 0 16px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #464646; }
+    .Messages .msgwrapper:not(:last-child) {
+      margin-bottom: 4px; }
+  .Messages .msglabel {
+    flex-grow: 1;
+    font-size: 14px; }
+  .Messages .msgclose {
+    font-size: 20px;
+    cursor: pointer; }
+    .Messages .msgclose:hover {
+      color: red; }

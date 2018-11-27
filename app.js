@@ -4952,7 +4952,7 @@ var Router = Imba.defineTag('Router', function(tag){
 	tag.prototype.render = function (){
 		var $ = this.$;
 		return this.$open(0).setChildren(
-			$[0] || _1(Home,$,0,this).setRoute('/')
+			$[0] || _1(Home,$,0,this).setRoute('/ime-front/')
 		,2).synced((
 			$[0].end()
 		,true));

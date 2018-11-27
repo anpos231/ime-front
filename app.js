@@ -4185,7 +4185,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 "use strict";
 var nav = {
-  image: '/media/33385749_771941226527296_2989847547880669184_n.jpg',
+  image: 'media/33385749_771941226527296_2989847547880669184_n.jpg',
   subcategories: [{
     label: 'Subkategoria 1',
     links: [{
@@ -4244,10 +4244,10 @@ var nav = {
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ({
   slides: [{
-    image: '/media/33385749_771941226527296_2989847547880669184_text.png',
+    image: 'media/33385749_771941226527296_2989847547880669184_text.png',
     href: '/slide/1'
   }, {
-    image: '/media/35194177_1717630791699849_6239680182131621888_text.png',
+    image: 'media/35194177_1717630791699849_6239680182131621888_text.png',
     href: '/slide/2'
   }]
 });
@@ -4874,7 +4874,7 @@ var Header = Imba.defineTag('Header', 'header', function(tag){
 	tag.prototype.render = function (){
 		var $ = this.$;
 		return this.$open(0).setChildren($.$ = $.$ || [
-			_1('div',$,0,this).flag('logo').setContent($[1] || _1('img',$,1,0).setSrc("/media/logo.png"),2),
+			_1('div',$,0,this).flag('logo').setContent($[1] || _1('img',$,1,0).setSrc("media/logo.png"),2),
 			_1('div',$,2,this).flag('wrapper').setContent([
 				_1('div',$,3,2),
 				_1('nav',$,8,2)
@@ -5005,10 +5005,10 @@ var Home = Imba.defineTag('Home', function(tag){
 			_1(ImageSlider,$,0,this),
 			_1('div',$,1,this).flag('products').setContent(
 				$[2] || _1('div',$,2,1).flag('productsline').setContent([
-					_1(Product,$,3,2).setImg("/media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
-					_1(Product,$,4,2).setImg("/media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
-					_1(Product,$,5,2).setImg("/media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
-					_1(Product,$,6,2).setImg("/media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł")
+					_1(Product,$,3,2).setImg("media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
+					_1(Product,$,4,2).setImg("media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
+					_1(Product,$,5,2).setImg("media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł"),
+					_1(Product,$,6,2).setImg("media/szpile.jpg").setName("Szpilki Chaber").setPricenew("139,00 zł").setPriceold("169,00 zł")
 				],2)
 			,2)
 		],2).synced((
